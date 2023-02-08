@@ -5,9 +5,164 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.search_select_box {
+  max-width: 200px;
+  margin: 7px auto;
+}
+
+.search_select_box select {
+  width: 100px
+}
+
+.showMovieContainer {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "t1 t2 t3 t4 t5"
+    "b1 b2 b3 b4 b5";
+}
+
+.showTvContainer {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "t1 t2 t3 t4 t5"
+    "b1 b2 b3 b4 b5";
+}
+
+
+.titleHeader {
+  text-align: center;
+  background-color: #171717;
+  padding: 0%;
+}
+
+.showCol2 {
+  grid-column-start: tr;
+}
+
+.showCol3 {
+  grid-column-start: tr;
+}
+
+.width17rem {
+  width: 17rem;
+}
+
+.width18-5rem {
+  width: 18.5rem;
+}
+
+.pl-15px {
+  padding-left: 15px;
+}
+
+.pl-25px {
+  padding-left: 25px;
+}
+
+.pr-25px {
+  padding-right: 25px;
+}
+
+.p-20px {
+  padding: 20px;
+}
+
+.pb-20px {
+  padding-bottom: 20px;
+}
+
+/* make the 'negative space' black */
+html {
+  background-color: black;
+}
+
+.whiteColor {
+  background-color: white;
+  color: white;
+}
+
+.whiteColorOnly {
+  color: white;
+}
+
+.blackBG {
+  background-color: black;
+}
+
+.nearBlackColor {
+  background-color: #171717;
+}
+
+.grayBlueColorBG {
+  background-color: #677DB7 !important;
+}
+
+.grayBlueColor {
+  color: #677DB7;
+}
+
+.height30px {
+  height: 30px;
+}
+
+.poster {
+  display: inline;
+}
+
+
+
+.margin-10px {
+  margin: 10px
+}
+
+
+.margin-20px {
+  margin: 20px
+}
+
+.marginL-10px {
+  margin-left: 10px;
+}
+
+.marginL-20px {
+  margin-left: 20px;
+}
+
+.navbar .navbar-nav {
+  display: flex;
+  float: none;
+  vertical-align: center;
+}
+
+/* .navbar .navbar-collapse {
+  text-align: center;
+} */
+
+.abs-center-x {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* .ml-auto .dropdown-menu {
+  left: auto !important;
+  right: 0px;
+} */
+.infoGrid {
+  display: inline;
 }

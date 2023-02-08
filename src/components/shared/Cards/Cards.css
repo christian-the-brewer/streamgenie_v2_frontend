@@ -1,0 +1,17 @@
+.width17rem{
+    width: 17rem;
+}
+
+.BG-black{
+    background-color: black;
+}
+
+.p-20px{
+    padding: 20px;
+}
+
+.card-container{
+    display: flex;
+    flex-direction : row;
+    flex-wrap: wrap;
+}

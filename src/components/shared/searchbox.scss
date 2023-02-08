@@ -1,0 +1,17 @@
+#searchSubmit{
+    // font-family: var(--primaryfont);
+    // background-color: var(--blackColor);
+}
+
+.searchBarContainer{
+
+    // background-color: var(--blackColor);
+    // height: 100vh; // use this instead of Percent
+    display:inline-flex;
+    flex-direction : row;
+
+}
+
+.searchBarWidth{
+    width: 300px;
+}
