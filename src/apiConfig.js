@@ -1,7 +1,7 @@
 let apiUrl
 const apiUrls = {
     // YOU MUST CHANGE PRODUCTION URL WHEN DEPLOYING
-	production: '<replace_with_deployed_api_url>',
+	production: 'https://streamgenie-v2-backend.vercel.app/',
 	development: 'http://localhost:8000',
 }
 
